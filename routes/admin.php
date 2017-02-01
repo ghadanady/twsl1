@@ -41,6 +41,19 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function () {
             Route::post('/edit', 'UsersController@postEdit');
         });
 
+         /**
+        * Users Routes
+        */
+        Route::group(['prefix' => 'drivers'], function () {
+            Route::get('/', 'DriverContoller@getIndex');
+            // Route::get('/profile', 'DriverContoller@getProfile');
+             Route::get('/delete/{id?}', 'DriverContoller@getDelete');
+            // Route::post('/profile', 'DriverContoller@postProfile');
+             Route::post('/add', 'DriverContoller@postAdd');
+             Route::post('/info/{id}', 'DriverContoller@postInfo');
+             Route::post('/edit', 'DriverContoller@postEdit');
+        });
+
         /**
         * Public Admin Panel Settings
         */

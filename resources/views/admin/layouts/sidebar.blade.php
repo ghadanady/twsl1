@@ -38,6 +38,11 @@
                         <i class="fa fa-dashboard"></i> <span>{{ trans('admin_global.users_tab') }}</span>
                     </a>
                 </li>
+                <li class="treeview">
+                    <a href="{{url('admin/drivers')}}">
+                        <i class="fa fa-dashboard"></i> <span>السائقين</span>
+                    </a>
+                </li>
             @endif
         </li>
 
