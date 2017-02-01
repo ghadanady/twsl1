@@ -1,0 +1,2 @@
+[20-Jan-2017 06:14:35 UTC] PHP Fatal error:  Class 'App\info' not found in /home/corecave/public_html/twsl/app/Http/Controllers/Admin/InfoController.php on line 21
+[20-Jan-2017 06:14:55 UTC] PHP Fatal error:  Class 'App\info' not found in /home/corecave/public_html/twsl/app/Http/Controllers/Admin/InfoController.php on line 21

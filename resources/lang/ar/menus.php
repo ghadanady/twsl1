@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'page_name' => 'عرض القوائم',
+    'edit_modal_header' => 'تعديل القائمة الخاصة بـ :title',
+    'name_col' => 'اسم القائمه',
+    'shape_col' => 'شكل القائمه',
+    'operations_col' => 'العمليات',
+    'btn_add' => 'اضافة قائمه جديده',
+    'btn_edit' => 'تعديل',
+    'btn_delete' => 'حذف',
+    'btn_save' => 'حفظ',
+    'btn_cancel' => 'الغاء',
+    'status_header' => 'حالة القائمة',
+    'status_choose' => '-- اختار حالة --',
+    'active' => 'فعالة',
+    'not_active' => 'غير فعالة',
+    'en_name_header' => 'اسم القائمة بالانجليزية',
+    'en_name_placeholder' => 'Ex:- Mobiles & Computers',
+    'ar_name_header' => 'اسم القائمة بالعربيه',
+    'ar_name_placeholder' => 'Ex:- موبايلات و كمبيوترات',
+    'categories_choose_header' => 'الاقسام الظاهرة',
+    'shapes_header' => 'شكل العرض',
+    'shape1' => 'الشكل الاول',
+    'shape2' => 'الشكل الثاني',
+    'loading' => 'انتظر...',
+];

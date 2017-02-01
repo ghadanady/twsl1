@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'bokra';
+    src: url('fonts/bokra.eot');
+    src: url('fonts/bokra.eot') format('embedded-opentype'),
+         url('fonts/bokra.woff2') format('woff2'),
+         url('fonts/bokra.woff') format('woff'),
+         url('fonts/bokra.ttf') format('truetype'),
+         url('fonts/bokra.svg#bokra') format('svg');
+}

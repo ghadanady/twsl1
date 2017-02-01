@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'page_name' => 'View Menus',
+    'edit_modal_header' => 'Edit Menu belongs to :title.',
+    'name_col' => 'Menu Name',
+    'shape_col' => 'Menu Shape',
+    'operations_col' => 'Operations',
+    'btn_add' => 'Add New Menu',
+    'btn_edit' => 'Edit',
+    'btn_delete' => 'Delete',
+    'btn_save' => 'Save',
+    'btn_cancel' => 'Cancel',
+    'status_header' => 'Menu Status',
+    'status_choose' => '-- Choose Status --',
+    'active' => 'Active',
+    'not_active' => 'Not Active',
+    'en_name_header' => 'Menu Name in English',
+    'en_name_placeholder' => 'Ex:- Mobiles & Computers',
+    'ar_name_header' => 'Menu Name in Arabic',
+    'ar_name_placeholder' => 'Ex:- موبايلات و كمبيوترات',
+    'categories_choose_header' => 'Shown Categories',
+    'shapes_header' => 'View Shape',
+    'shape1' => 'First Shape',
+    'shape2' => 'Second Shape',
+    'loading' => 'Wait...',
+];

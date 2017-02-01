@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap-arabic.min.css">
+    <link rel="stylesheet" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+
+</head>
+
+<body>
+    <div class="register-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <div class="page-header">
+                        <h2>إنشاء متجر جديد <small>إنشاء المتجر مجاني بالكامل ، لا يتم فرض أي رسوم أو مبالغ مالية على إنشاء المتجر<br />قم بملئ جميع الحقول بالأسفل بالبيانات المناسبة ، كل الحقول مطلوبة .</small></h2>
+                    </div>
+                    <!-- end page-header -->
+
+
+                    <form role="form" action="" method="POST">
+                        <fieldset>
+                            <div class="form-group">
+                                <!-- Username -->
+                                <label class="control-label col-md-2" for="username">اسم المستخدم</label>
+                                <div class="controls col-md-10">
+                                    <div class="input-group col-lg-4">
+                                        <span class="input-group-addon"><span class="fa fa-user"></span></span>
+                                        <input type="text" name="username" id="username" class="form-control" value="" />
+                                        <span id="username-check-result" class="input-group-addon">
+			<span class="check-span"></span>
+                                        </span>
+                                    </div>
+                                    <p class="help-block">
+                                        قم باختيار اسم مستخدم مناسب بحيث لا يقل عدد الأحرف عن 5 أحرف
+                                        <br /> قم باختيار اسم المستخدم بعناية لأنك لن تتمكن من تغييره لاحقاً إلا بطلب من الإدارة
+                                    </p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <!-- E-mail -->
+                                <label class="control-label col-md-2" for="email">البريد الالكتروني</label>
+                                <div class="controls col-md-10">
+                                    <div class="input-group col-lg-4">
+                                        <span class="input-group-addon"><span class="fa fa-envelope"></span></span>
+                                        <input type="text" id="email" name="email" class="form-control" value="" />
+                                    </div>
+                                    <p class="help-block">
+                                        قم بإدخال بريد الكتروني صحيح ، لأن كل المراسلات بين الموقع و بينك ستتم عن طريق هذا البريد الالكتروني المدخل .
+                                        <br /> ستصلك رسالة تفعيل العضوية على البريد الالكتروني المدخل .
+                                    </p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="form-group divider">
+                                <!-- Password-->
+                                <label class="control-label col-md-2" for="password">كلمة المرور</label>
+                                <div class="controls col-md-10">
+                                    <div class="input-group col-lg-4">
+                                        <span class="input-group-addon"><span class="fa fa-lock"></span></span>
+                                        <input type="password" id="password" name="password" class="form-control" placeholder="" />
+                                    </div>
+                                    <p class="help-block">
+                                        قم باختيار كلمة مرور صعبة التنبؤ ، كيلا يتعرض حسابك للسرقة .
+                                        <br /> كلمة المرور يجب ألا تقل عن 6 حروف أو ارقام او رموز .
+                                    </p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <!-- Shop Domain -->
+                                <label class="control-label col-md-2" for="shop">نطاق المتجر</label>
+                                <div class="controls col-md-10">
+                                    <div class="input-group col-lg-4">
+                                        <span class="input-group-addon" style="direction:ltr;">.mtjre.com</span>
+                                        <input dir="ltr" type="text" id="shop" name="shop" class="form-control" value="" maxlength="14" />
+                                        <span class="input-group-addon" style="direction:ltr;">http://</span>
+                                        <span id="shop-check-result" class="input-group-addon">
+			<span class="shop-check-span"></span>
+                                        </span>
+                                    </div>
+                                    <p class="help-block">
+                                        قم باختيار نطاق المتجر مناسب بحيث لا يقل عدد الأحرف عن 4 أحرف و لا يزيد عن 14 حرف
+                                        <br /> مسموح فقط باستخدام أحرف انكليزية صغيرة و أرقام فقط
+                                        <br /> قم باختيار نطاق المتجر بعناية لأنك لن تتمكن من تغييره لاحقاً إلا بطلب من الإدارة
+                                    </p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Shop Title -->
+                                <label class="control-label col-md-2" for="shop_title">عنوان المتجر</label>
+                                <div class="controls col-md-10">
+                                    <div class="input-group col-xs-12 col-lg-6">
+                                        <input type="text" id="shop_title" name="shop_title" class="form-control" value="" />
+                                    </div>
+                                    <p class="help-block">
+                                        قم باختيار عنوان لمتجرك ، يمكنك تغييره لاحقاً من لوحة تحكم المتجر .
+                                    </p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Category -->
+                                <label class="control-label col-md-2" for="shop_title">تصنيف المتجر</label>
+                                <div class="controls col-md-10">
+                                    <div class="input-group col-lg-4">
+                                        <span class="input-group-addon"><span class="fa fa-reorder"></span></span>
+                                        <select name="shop_category" class="form-control">
+                                            <option value="1">عام</option>
+                                            <option value="2">عقارات وأملاك</option>
+                                            <option value="3">سيارات و محركات</option>
+                                            <option value="4">إلكترونيات وكهربائيات</option>
+                                            <option value="5">كمبيوتر و أنترنت</option>
+                                            <option value="6">أثاث و مفروشات</option>
+                                            <option value="7">مقتنيات شخصية</option>
+                                            <option value="8">صناعات ونقليات</option>
+                                            <option value="9">أدوات نسائية</option>
+                                            <option value="10">تجارة و أسهم</option>
+                                            <option value="11">هواتف وأرقام</option>
+                                            <option value="13">وظائف وخدمات</option>
+                                            <option value="14">كماليات ومنوعات</option>
+                                        </select>
+                                    </div>
+                                    <p class="help-block">
+                                        قم باختيار تصنيف لمتجرك لتسهيل عملية الوصول إلى منتجاتك من قبل الراغبين
+                                        <br /> يمكنك تغيير تصنيف المتجر لاحقاً من خلال لوحة تحكم المتجر
+                                    </p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="form-group divider">
+                                <!-- Country -->
+                                <label class="control-label col-md-2" for="shop_country">الدولة</label>
+                                <div class="controls col-md-10">
+                                    <div class="input-group col-lg-4">
+                                        <span class="input-group-addon"><span class="fa fa-flag"></span></span>
+                                        <select name="country" class="form-control col-lg-12">
+                                            <option value="2">السعودية</option>
+                                            <option value="3">مصر</option>
+                                            <option value="4">المغرب</option>
+                                            <option value="5">الامارات</option>
+                                            <option value="6">سوريا</option>
+                                            <option value="7">الاردن</option>
+                                            <option value="8">العراق</option>
+                                            <option value="9">الجزائر</option>
+                                            <option value="10">تونس</option>
+                                            <option value="11">فلسطين</option>
+                                            <option value="12">ليبيا</option>
+                                            <option value="13">عمان</option>
+                                            <option value="14">قطر</option>
+                                            <option value="15">الكويت</option>
+                                            <option value="16">البحرين</option>
+                                            <option value="17">اليمن</option>
+                                            <option value="18">لبنان</option>
+                                            <option value="19">السودان</option>
+                                            <option value="20">موريتانيا</option>
+                                            <option value="21">الصومال</option>
+                                            <option value="22">جيبوتي</option>
+                                        </select>
+                                    </div>
+                                    <p class="help-block">
+                                        قم باختيار الدولة التي ينشط فيها متجرك ، هذا الخيار يمكن تغييره لاحقاً من لوحة تحكم المتجر .
+                                    </p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="form-group divider">
+                                <!-- Agree -->
+                                <div class="controls col-md-10 col-md-push-2">
+                                    <div class="input-group col-lg-12">
+                                        <div class="checkbox">
+                                            <input type="checkbox" id="flat-checkbox-1" name="agree" value="1" />
+                                            <label for="flat-checkbox-1">لقد قرأت وأوافق على شروط الاستخدام</label>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </fieldset>
+                </div>
+                <div class="controls col-md-2 col-lg-push-2 col-xs-12">
+                    <button type="submit" name="register" class="btn btn-success col-xs-12">إنشاء متجر جديد</button>
+                </div>
+
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
