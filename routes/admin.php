@@ -48,6 +48,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function () {
             Route::get('/', 'DriverContoller@getIndex');
             // Route::get('/profile', 'DriverContoller@getProfile');
              Route::get('/delete/{id?}', 'DriverContoller@getDelete');
+             Route::get('/active/{id}/{active}', 'DriverContoller@getActive');
             // Route::post('/profile', 'DriverContoller@postProfile');
              Route::post('/add', 'DriverContoller@postAdd');
              Route::post('/info/{id}', 'DriverContoller@postInfo');

@@ -48,9 +48,20 @@
                                                     <button data-url="{{url('admin/drivers/info/'.$u->id)}}" class="users-edit-modal-btn btn btn-primary" data-original="">
                                                         <li class="fa fa-pencil"> {{ trans('admin_global.btn_edit') }}</li>
                                                     </button >
-                                                    <a data-url="{{url('admin/drivers/delete/'.$u->id)}}" class="btn btn-danger modal-delete-btn"  >
+                                                    <a data-url="{{url('admin/drivers/delete/'.$u->id)}}" class="btn btn-danger"  >
                                                         <li class="fa fa-trash"> {{ trans('admin_global.btn_delete') }}</li>
                                                     </a>
+                                                @if(!$u->active=='1')
+                                                    <a style="min-width: 80px" href="{{url('admin/drivers/active/'.$u->active)}}" class="btn btn-info modal-delete-btn"  >
+                                                        <li class="fa fa-check">   فعال  </li>
+                                                    </a>
+                                                    
+                                                @else
+                                                    <a href="{{url('admin/drivers/active/'.$u->id.'/'.$u->active)}}" class="btn btn-danger"  >
+                                                        <li class="fa fa-ban"> غير فعال</li>
+                                                    </a>
+                                                @endif    
+
                                                 </td>
                                             </tr>
                                         @endforeach

@@ -220,4 +220,25 @@ class DriverContoller extends Controller
         $user->delete();
         return redirect()->back()->with('m', 'تم مسح السائق بنجاح ');
     }
+
+    /**
+     * active a user account if its id is passed
+     * if not it will delete the current user
+     * @param  int $id
+     * @return Redirect
+     */
+    public function getActive($id,$active= null) {
+
+
+        $user = Driver::find($id);
+
+        if(!$user){
+            return redirect()->back()->with('m', '  لا يوجد سائق بهذا الرقم ');
+        }
+
+        $newActive=$active==1?0:1;
+        $user->active=$newActive;
+        $user->save();
+        return redirect()->back();
+    }
 }
